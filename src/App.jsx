@@ -106,7 +106,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-logo">
           <span className="logo-hex">⬡</span>
-          <span className="logo-text">Nara DEX</span>
+          <span className="logo-text">NARA Market View</span>
         </div>
         <div className="nav-meta">
           {lastUpdate && <span className="last-update">Updated: {lastUpdate}</span>}
@@ -235,7 +235,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <span>Nara DEX — Meteora on Nara Chain</span>
+        <span>NARA Market View — Meteora on Nara Chain</span>
         <span>Auto-refresh every 15s</span>
       </footer>
     </div>

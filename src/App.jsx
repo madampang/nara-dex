@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-const API = import.meta.env.VITE_API_URL || '/api';
+const API = '/api';
 
 const TOKENS = {
   NARA: { symbol: 'NARA', name: 'Nara', color: '#6366f1', icon: '⬡' },
